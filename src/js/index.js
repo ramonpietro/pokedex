@@ -1,18 +1,3 @@
-/*
-Quando clicar no pokemon da listagem, deve-se esconder o cartão com o pokemon aberto e mostrar o cartao com o pokemon selecionado na listagem
-
-Para isso vamos precisar trabalhar com dois elementos: listagem e cartao.
-
-criar duas variaveis no js para trabalhar com os elementos na tela
-
-necessario trabalhar com um evento de click feito pelo usuario na listagem do pokemon
-
-- remover a classe "aberto" apenas do cartao que está aberto
-- ao clicar em um pokemon da listagem  pegamos o id deste pokemon para saber qual card mostrar
-- remover a classe ativa que marca o pokemon selecionado
-- adicionar a classe ativo no item selecionado
-*/
-
 // criar duas variáveis
 const listaSelecaoPokemons = document.querySelectorAll('.pokemon')
 const pokemonsCard = document.querySelectorAll('.cartao-pokemon')
